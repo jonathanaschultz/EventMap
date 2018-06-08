@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:weightSum="2">
+        <EditText
+            android:id="@+id/eventNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Name"
+            android:layout_weight="1">
+        </EditText>
+
+        <EditText
+            android:id="@+id/eventDurationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Event Duration (Hours)"
+            android:inputType="time"></EditText>
+    </LinearLayout>
+    <TimePicker
+        android:id="@+id/eventTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearTextLayout">
+    </TimePicker>
+    <DatePicker
+        android:id="@+id/eventDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_below="@+id/eventTimePicker"
+        android:layout_centerHorizontal="true">
+    </DatePicker>
+
+
+</RelativeLayout>

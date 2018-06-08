@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1008904211201",
+    "firebase_url": "https://eventmap-41c9c.firebaseio.com",
+    "project_id": "eventmap-41c9c",
+    "storage_bucket": "eventmap-41c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008904211201:android:7a9f50fda881512c",
+        "android_client_info": {
+          "package_name": "edu.ucla.cs.eventmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008904211201-2d386ois21l0s25c900ugdmbm3at0da8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucla.cs.eventmap",
+            "certificate_hash": "7c61d7fe6a80042d1160bcc03f79a7af0b68bda7"
+          }
+        },
+        {
+          "client_id": "1008904211201-pu53l8aqhsba3auate57kbpj6a7qdplg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1chiDX7K7ZNfzkjWAUkShm2nHvBQkykI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008904211201-pu53l8aqhsba3auate57kbpj6a7qdplg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
