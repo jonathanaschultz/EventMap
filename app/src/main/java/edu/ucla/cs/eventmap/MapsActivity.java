@@ -339,7 +339,7 @@ public class MapsActivity extends AppCompatActivity {
                     }
                 };
                 eventAttendQuery.addGeoQueryEventListener(geoAttendanceListener);
-                locationReporter.postDelayed(this, 60 * 1000 * 10); //Run every 10 minutes
+                locationReporter.postDelayed(this, 60 * 1000 * 5); //Run every 5 minutes
             }
         };
         mapView.addOnMapChangedListener(new MapView.OnMapChangedListener() { //Add the appropriate listeners + only determine events near us when the map has been rendered

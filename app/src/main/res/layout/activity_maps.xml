@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_above="@+id/radiusBar"
         android:layout_margin="16dp" />
     <android.support.design.widget.FloatingActionButton
@@ -29,7 +29,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="16dp"
         android:layout_above="@+id/radiusBar"
-        android:layout_toLeftOf="@+id/eventFAB"
+        android:layout_toStartOf="@+id/eventFAB"
         android:visibility="invisible"
         />
     <SeekBar
@@ -39,7 +39,6 @@
         android:layout_alignParentBottom="true"
         android:visibility="invisible"
         android:progress="25"
-        android:min="1"
         android:max="250"
         />
     <TextView

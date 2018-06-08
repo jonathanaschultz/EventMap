@@ -4,4 +4,10 @@
     <string name="facebook_login_protocol_scheme" translatable="false">fb222006488384686</string>
     <string name="title_activity_maps">EventMap</string>
     <string name="access_token">pk.eyJ1Ijoiam9uYXRoYW5hc2NodWx0ejEiLCJhIjoiY2poOHBpZndxMDRmcjM3bXAwMWV0a3kzdCJ9.hKYYwwsvYNZarciQLU_d0A</string>
+    <string name="addEName">Event Name</string>
+    <string name="addEDuration">Event Duration (Hours)</string>
+    <string name="inputC">Input Comment</string>
+    <string name="addC">Add Comment</string>
+    <string name="delE">Delete Event</string>
+    <string name="del">Delete</string>
 </resources>

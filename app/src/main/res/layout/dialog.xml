@@ -21,8 +21,7 @@
             android:id="@+id/commentEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/commentList"
-            android:hint="Input Comment"
+            android:hint="@string/inputC"
             android:inputType="text"
             >
         </EditText>
@@ -35,12 +34,12 @@
             android:id="@+id/commentButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Comment"/>
+            android:text="@string/addC"/>
         <Button
             android:id="@+id/deleteEButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Delete event"
+            android:text="@string/delE"
             android:visibility="invisible"
             android:enabled="false"/>
     </LinearLayout>
